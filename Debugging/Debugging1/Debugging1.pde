@@ -1,4 +1,3 @@
-void setup() 
-{
-    MyClass myclass = new MyClass();    
+void setup() {
+  MyClass myclass = new MyClass();    
 }

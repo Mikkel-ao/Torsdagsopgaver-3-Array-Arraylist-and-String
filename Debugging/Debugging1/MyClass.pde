@@ -1,7 +1,5 @@
-public class MyClass() {
-    
-    public MyClass()
-    {
-        println("Jobs done!"); 
-    }
+class MyClass {
+  MyClass() {
+    println("Jobs done!");
+  }
 }
