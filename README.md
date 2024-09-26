@@ -1,3 +1,8 @@
+MIKKEL ANDREAS OLSEN
+
+EMAIL: CPH-MO345@CPHBUSINESS.DK
+
+
 ### Exercises with String, ArrayList and arrays
 
 
