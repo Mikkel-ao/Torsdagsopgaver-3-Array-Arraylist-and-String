@@ -6,7 +6,7 @@ println(numbers);
 
 println("--------------------------------------------------------");
 int[] array = new int[] {30, 10, 20, 43, 11, 24, 89};
-// Arrays.sort(array);
+Arrays.sort(array);
 
 for (int i = 0; i < array.length; i++) {
   println(array[i]);
@@ -36,6 +36,10 @@ void setup() {
   
   int[] unsortedArray = {55, 23, 18, 88, 99, 300, 1};
   println(returnSorted(unsortedArray));
+  
+  println("------------------------------------------------------------");
+  
+  println(Arrays.toString(returnSorted(unsortedArray)));
   
 }
 
