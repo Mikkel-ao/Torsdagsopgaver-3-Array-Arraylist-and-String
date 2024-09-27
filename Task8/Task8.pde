@@ -1,19 +1,4 @@
 import java.util.Arrays;
-/*
-int[] numbers = {2, 3, 1, 3, 6, 8, 9};
-Arrays.sort(numbers);
-println(numbers);
-
-println("--------------------------------------------------------");
-int[] array = new int[] {30, 10, 20, 43, 11, 24, 89};
-Arrays.sort(array);
-
-for (int i = 0; i < array.length; i++) {
-  println(array[i]);
-}
-
-println("-------------------------------------------------------");
-*/
 
 void sortedArray(int[] unsortedArray) {
   Arrays.sort(unsortedArray);
@@ -29,17 +14,17 @@ int[] returnSorted(int[] unsortedArray) {
 
 
 void setup() {
-  int[] arrayToSort = {35, 530, 23, 18, 39, 290, 111};
-  sortedArray(arrayToSort);
+  int[] array1 = {35, 530, 23, 18, 39, 290, 111};
+  sortedArray(array1);
 
   println("------------------------------------------------------------");
   
-  int[] unsortedArray = {55, 23, 18, 88, 99, 300, 1};
-  println(returnSorted(unsortedArray));
+  int[] array2 = {55, 23, 18, 88, 99, 300, 1};
+  println(returnSorted(array2));
   
   println("------------------------------------------------------------");
   
-  println(Arrays.toString(returnSorted(unsortedArray)));
+  println(Arrays.toString(returnSorted(array2)));
   
 }
 
