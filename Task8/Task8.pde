@@ -22,9 +22,21 @@ void sortedArray(int[] unsortedArray) {
   }
 }
 
+int[] returnSorted(int[] unsortedArray) {
+  Arrays.sort(unsortedArray);
+  return(unsortedArray);
+}
+
+
 void setup() {
   int[] arrayToSort = {35, 530, 23, 18, 39, 290, 111};
   sortedArray(arrayToSort);
+
+  println("------------------------------------------------------------");
+  
+  int[] unsortedArray = {55, 23, 18, 88, 99, 300, 1};
+  println(returnSorted(unsortedArray));
 }
+
 
   
